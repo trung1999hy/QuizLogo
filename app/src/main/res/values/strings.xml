@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LogoQuiz</string>
+    <string name="area">South Korea</string>
+    <string name="question">Questions 25/120</string>
+    <string name="percent">15%</string>
+    <string name="tv_national">Brazil</string>
+    <string name="tv_number_question">0/180</string>
+    <string name="tv_country">Country</string>
+    <string name="feed_back">FeedBack</string>
+    <string name="what_you_need_help">What support do you need?</string>
+    <string name="tv_confirm">Do you want to delete unnecessary letter for </string>
+    <string name="tv_unlock">Do you want to unlock the answer to the question with </string>
+    <string name="tv_release">You have passed this question already! If you want to play this question again, you will not receiver coins. Do you want?</string>
+    <string name="message_purchase_one">%s</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.logoquiz">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:name="com.bmt_team.logoquiz.base.App"
+        android:allowBackup="true"
+        android:icon="@drawable/logo_app"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/logo_app"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LogoQuiz"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:icon">
+        <activity
+            android:name="com.bmt_team.logoquiz.term.TermOfUseActivity"
+            android:exported="false" />
+        <activity android:name="com.bmt_team.logoquiz.setting.InAppActivity" />
+        <activity android:name="com.bmt_team.logoquiz.privacy.PrivacyActivity" />
+        <activity android:name="com.bmt_team.logoquiz.setting.SettingActivity" />
+        <activity android:name="com.bmt_team.logoquiz.detail_question.DetailQuestionActivity" />
+        <activity android:name="com.bmt_team.logoquiz.list_question.ListQuestionActivity" />
+        <activity android:name="com.bmt_team.logoquiz.inapp.PurchaseInAppActivity" />
+        <activity android:name="com.bmt_team.logoquiz.MainActivity" />
+        <activity
+            android:name="com.bmt_team.logoquiz.splash_screen.SplashScreenActivity"
+            android:supportsPictureInPicture="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
